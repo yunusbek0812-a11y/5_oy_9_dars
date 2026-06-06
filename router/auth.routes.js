@@ -29,13 +29,8 @@ const checkLogin = (req, res, next) => {
   next();
 };
 
-// POST /register — yangi foydalanuvchi ro'yxatdan o'tish
 authRouter.post("/register", checkRegister, register);
-
-// POST /login — tizimga kirish
 authRouter.post("/login", checkLogin, login);
-
-// GET /me — o'z profilini olish (auth middleware orqali)
 authRouter.get("/me", auth, getMe);
 
 module.exports = authRouter;

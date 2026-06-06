@@ -37,7 +37,6 @@ const getOneBook = async (req, res, next) => {
 
 const addBook = async (req, res, next) => {
   try {
-    // req.file — multer orqali yuklangan fayl
     const fileUrl = req.file ? `/uploads/${req.file.filename}` : "";
 
     const book = await Book.create({ ...req.body, cover_url: fileUrl });
