@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-const Author = new Schema(
+const Auth = new Schema(
   {
     full_name: { type: String, required: true },
     birth_year: { type: Date, required: true },
@@ -26,4 +26,4 @@ const Author = new Schema(
   { versionKey: false, timestamps: true },
 );
 
-module.exports = model("Author", Author);
+module.exports = model("Auth", Auth);

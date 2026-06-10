@@ -24,6 +24,10 @@ const addAuthor = async (req, res, next) => {
   try {
     const { full_name, birth_year, death_year, bio, period, work, region } =
       req.body;
+
+    if(!req.file) {
+      throw CustomErrorHandler.badRequest("file bo'lishi shart")
+    }
     await Author.create({
       full_name,
       birth_year,
@@ -32,6 +36,7 @@ const addAuthor = async (req, res, next) => {
       period,
       work,
       region,
+      picture:"http://localhost:4001/uploads/"
     });
     res.status(201).json({ message: "Author qo'shildi" });
   } catch (error) {

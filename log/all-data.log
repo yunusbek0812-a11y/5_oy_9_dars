@@ -1,0 +1,3 @@
+{"level":"warn","message":"Warn logger"}
+{"level":"error","message":"Error logger"}
+{"level":"info","message":"Info logger"}

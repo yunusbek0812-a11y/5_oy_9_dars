@@ -1,0 +1,159 @@
+warn: Warn logger
+error: Error logger
+info: Info logger
+[33mwarn[39m: Warn logger
+[31merror[39m: Error logger
+[32minfo[39m: Info logger
+warn: Warn logger
+error: Error logger
+info: Info logger
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T06:54:01.233Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T06:54:01.236Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T06:54:01.236Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T06:56:40.069Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T06:56:40.071Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T06:56:40.072Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T06:56:51.829Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T06:56:51.831Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T06:56:51.831Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T06:57:14.071Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T06:57:14.074Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T06:57:14.074Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T07:06:09.085Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T07:06:09.088Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T07:06:09.088Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T09:06:07.599Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T09:06:07.601Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T09:06:07.601Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T09:07:56.335Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T09:07:56.338Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T09:07:56.339Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T09:07:57.751Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T09:07:57.753Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T09:07:57.753Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T09:08:38.842Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T09:08:38.845Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T09:08:38.846Z'
+}
+{
+  message: 'Warn logger',
+  level: 'warn',
+  timestamp: '2026-06-10T09:09:17.966Z'
+}
+{
+  message: 'Error logger',
+  level: 'error',
+  timestamp: '2026-06-10T09:09:17.969Z'
+}
+{
+  message: 'Info logger',
+  level: 'info',
+  timestamp: '2026-06-10T09:09:17.970Z'
+}
