@@ -10,6 +10,7 @@ const cookieParser = require("cookie-parser");
 const CitationRouter = require("./router/citation.routes");
 const logger = require("./utils/logger");
 const authSchema = require("./schema/auth.schema");
+const likeRouter = require("./router/like.routes");
 
 
 const app = express();
@@ -24,11 +25,6 @@ app.use(express.urlencoded({
   extended: true
 }))
 
-logger.warn("Warn logger")
-logger.error("Error logger")
-logger.info("Info logger") 
-logger.debug("Debug logger") 
-
 connectDB();
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads/images")));
@@ -36,8 +32,11 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads/images")));
 app.use(authorRouter);
 app.use(bookRouter);
 app.use(CitationRouter);
-app.use(errorMiddleware);
 app.use(authSchema)
+app.use(likeRouter)
+
+app.use(errorMiddleware);
+
 
 app.listen(PORT, () => {
   console.log("Server is running at: " + PORT);
